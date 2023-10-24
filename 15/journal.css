@@ -1,0 +1,23 @@
+p{
+font-family: Verdana, Geneva, Arial;
+font-size: 12px;
+}
+
+p,h1{
+font-size:2.2em;
+}
+
+p,h2{
+font-size:1.3em; 
+font-weight: normal;
+}
+
+blockquote
+{font-style: oblique;
+}
+
+h1,h2
+{
+color:#CC6600;
+border-bottom: thin dotted #888888;
+}
