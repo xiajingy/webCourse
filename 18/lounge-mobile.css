@@ -74,23 +74,26 @@ border:0px;
   color: #444444;
   font-family: Georgia, 'Times New Roman';
 }
+
+
 .elixirs{
   border-width: thin;
   border-style: solid;
-  background-color: #007e7e;
-  width: 200px;
+  border-color: #007e7e;
+  border-width: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
   margin-left: 20px;
-  
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  text-align: center;
 }
-h2{
-color:black ;
-}
+
+
 div h2{color: black;
 }
-h3{
+div h3{
 color: #d12c47;
 }
 .elixirs{
