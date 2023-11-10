@@ -51,17 +51,13 @@ h1, h2 {
 }
 
 h1 {
-	font:1.5em;
+	font-size: 1.5em;
 }
 
 h2 {
-	font: 1.3em;
+	font-size: 1.3em;
 }
-*
-{padding:0px;
-margin:0px;
-border:0px;
-}
+
 .guarantee {
   border-color:        white;
   border-width:        1px;
@@ -77,9 +73,13 @@ border:0px;
 
 
 .elixirs{
-  border: thin solid #007e7e;
-  border-width: 20px;
-  padding-right: 20px 20px 20px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   margin-left: 20px;
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
@@ -91,4 +91,40 @@ div h2{color: black;
 }
 div h3{
 color: #d12c47;
+}
+.elixirs{
+line-height: 1;
+}
+
+.cd {
+	font-style:italic;
+}
+
+.artist {
+	font-weight: bold;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+.guarantee{
+background-image: url(images/background.gif);
+background-repeat: no-repeat;
+background-position: top left;
+padding: 25px;
+padding-left: 80px;
+margin-right: 250px;
+border-radius:50px;
+border-style: dashed white;
+border-top-right-radius: 2em;
+border-bottom-left-radius: 2em;
 }
