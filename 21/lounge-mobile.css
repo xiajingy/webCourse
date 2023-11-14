@@ -1,0 +1,129 @@
+body {
+  font-size:           small;
+  font-family:         Verdana, Helvetica, Arial, sans-serif;
+  line-height:         1.6em;
+}
+
+h1, h2 {
+  color:               #007e7e;
+}
+
+h1 {
+  font-size:           150%;
+}
+
+h2 {
+  font-size:           130%;
+}
+
+#guarantee {
+  line-height:         1.9em;
+  font-style:          italic;
+  font-family:         Georgia, "Times New Roman", Times, serif;
+  color:               #444444;
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px;
+  margin:              30px;
+/*
+  padding-left:        80px;
+  margin-right:        250px;
+  background-image:    url(images/background.gif);
+  background-repeat:   no-repeat;
+  background-position: top left;
+*/
+}
+body {
+	font-size: small; /* 新的属性值，请自行了解 */
+	font-family: Verdana， Helvetica， Arial;
+}
+
+h1, h2 {
+	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding: 25px;
+  margin:30px;
+  font-family: Georgia, "Times New Roman";
+  height: 1.9em;
+  font-style: italic;
+  color: #444444;
+  background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 25px;
+    padding-left: 80px;
+    margin-right: 250px;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-style: dashed white;
+}
+.elixirs {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+  width: 200px;
+  padding-right:   20px;
+	padding-bottom: 20px;
+	padding-left:    20px;
+	margin-left:     20px;
+  background-image:    url(images/cocktail.gif);
+	background-repeat:   repeat-x;
+  text-align:center; 
+  float: right;
+}
+h1, h2 {
+  color: #007e7e;
+}
+h2 {
+  color: black;
+}
+.elixirs h2 {
+  color: black;
+}
+ .elixirs h3 { color: #d12c47; }
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight: bold;
+}
+a:link {
+  color: green;
+}
+
+/* 已访问状态 */
+a:visited {
+  color: red;
+}
+
+/* 悬停状态 */
+a:hover {
+  color: yellow;
+}
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}

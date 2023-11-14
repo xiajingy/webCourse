@@ -1,0 +1,132 @@
+body {
+  font-size: 12pt;
+  font-family: Times, "Times New Roman", serif;
+  line-height: 1.4em;
+  margin: 10px 40px 10px 40px;
+  width: 700px;
+}
+
+h1, h2 {
+  color: black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+#guarantee {
+  padding: 25px 25px 25px 25px;
+  border: thin solid black;
+  margin-right: 240px;
+  margin-left: 30px;
+  line-height: 1.5em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #222222;
+}
+
+#elixirs {
+  font-family: Verdana, Helvetica, Arial, sans-serif; 
+  width: 200px;
+  background-color: #ffffff;
+  background: url("images/elixirbackground.gif") repeat-x top center;
+  padding: 0px 20px 20px 20px;
+  margin-left: 25px;
+  color: #000000;
+  border: thin double #007e7e;
+  text-align: center; 
+  font-size: 80%;
+}
+
+#elixirs a:link { color: #007e7e;}
+#elixirs a:visited { color: #333333;}
+#elixirs a:hover { background: #f88396; color: #0d5353;}
+
+#elixirs h2 {
+  color: #000000;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+}
+
+#elixirs img {
+  padding-top: 20px;
+}
+	
+#elixirs p {
+  line-height: 1em;
+}
+
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+.cd {
+  font-style: italic;
+}
+
+body p a:link { color: #007e7e; }
+body p a:visited { color: #333333; }
+body {
+	font-size: small; /* 新的属性值，请自行了解 */
+	font-family: Verdana， Helvetica， Arial;
+}
+
+h1, h2 {
+	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+.elixirs {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+  width: 200px;
+  padding-right:   20px;
+	padding-bottom: 20px;
+	padding-left:    20px;
+	margin-left:     20px;
+  background-image:    url(images/cocktail.gif);
+	background-repeat:   repeat-x;
+  text-align:center; 
+}
+h1, h2 {
+  color: #007e7e;
+}
+h2 {
+  color: black;
+}
+div h2 {
+  color: black;
+}
+div footer{
+font-size:    .5em;
+text-align:   center;
+
+/* normal 允许浏览器根据字体自行选择一个合适的行高 */
+line-height:  normal;
+
+margin-top: 30px;
+}
+
+
+
+
