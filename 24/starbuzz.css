@@ -73,25 +73,8 @@ a:visited {
 
 
 
-.sidebar {
-	position:  absolute;
-	top:          100px;
-	right:        200px;
-	width:        280px;
-}
-
-.ad{
-  position:        absolute;
-	top:                150px;
-	left:               100px;
-	width:              600px;
-	height:              80px;
-	background-color: #ccbb00;
-}
-.sidebar {
-	z-index: 100;
-}
-
-.ad {
-	z-index:  1;
+.main {
+	position: relative;
+	top:           0px;
+	left:        200px;
 }
